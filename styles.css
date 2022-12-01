@@ -126,6 +126,10 @@ footer{
   padding:20px;
 }
 
+.grid img{
+
+}
+
 
 
 
@@ -153,8 +157,9 @@ footer{
 
   .grid{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-column-gap: 5px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 15px;
+      margin-top: 50px;
   }
   .grid div{
 
