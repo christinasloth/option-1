@@ -4,6 +4,7 @@ body{
   padding: 0;
   /* Do not change margin or padding */
   background: #f5f7fa;
+  font-family: 'Josefin Sans', sans-serif;
 /* NOTE: do not change the background in media query */
 font-family: 'Open Sans', helvetica, sans-serif;
 /* NOTE you can change the fonts but always have a backup */
@@ -101,6 +102,22 @@ h1{
   text-align: center;
   padding-top: 20px;
   font-family: 'Julius Sans One', helvetica, sans-serif;
+}
+
+h2{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h3{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 footer{
