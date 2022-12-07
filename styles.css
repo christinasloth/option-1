@@ -86,7 +86,9 @@ font-family: 'Open Sans', helvetica, sans-serif;
   color: #FFFFFF;
 }
 
+.two-col img{
 
+}
 
 .grid{
 
@@ -119,7 +121,7 @@ h1{
 
 h2{
   font-family: 'Josefin Sans', sans-serif;
-  color: #F7996E;
+  color: #712F79;
 }
 
 h3{
@@ -226,8 +228,21 @@ img{
 
   .dif-color h1, .dif-color h2{
     color: white !important;
+    font-family: 'Julius Sans One', helvetica, sans-serif;
   }
 
+  .medium-size h2{
+    color:#712F79 !important;
+  }
+
+  .medium-size p{
+    color: #976391;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .medium-size a{
+    color: #976391;
+    font-family: 'Josefin Sans', sans-serif;
+  }
 /* NOTE: START MEDIUM SIZE DISPLAYS ---------------------*/
 @media only screen and (min-width: 700px) {
 
@@ -260,6 +275,12 @@ img{
 
   }
 
+  .grid-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    margin-top: 50px;
+  }
 
   /* NOTE Do not change nav styles below ------------without help from April*/
   .mainNav {
